@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "../one.jpg";
+import "../App.css";
 import { Jumbotron, Container } from "react-bootstrap";
 export default function Banner() {
   return (
@@ -9,6 +10,7 @@ export default function Banner() {
         backgroundColor: "#E8E8E8"
       }}
       className="rounded-left"
+      id="banner"
     >
       <Jumbotron fluid>
         <Container fluid>

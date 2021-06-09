@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <Navbar bg="dark">
       <Navbar.Brand href="#home" className="text-light ps-3">
-        Navbar with text
+        My Portfolio
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
