@@ -19,12 +19,17 @@ export default function Banner() {
               <div className="p-5 justify-content-end">
                 <h1 className=" display-3">Victor Kipkoech</h1>
                 <h4 className="pt-3 pb-3">Fullstack software developer</h4>
-                <p className="pt-3">
+                <h3 className="pt-3">
                   {" "}
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque iusto quae praesentium, nam nemo quam fugiat debitis a,
-                  inventore culpa laborum necessitatibus aut sequi ab?
-                </p>
+                  I am a full stack passionate software developer who is
+                  interested in javascript,React js,nodejs and building.By
+                  building I mean behind a laptop not with a{" "}
+                  <i
+                    className="bi bi-hammer"
+                    style={{ fontSize: "2rem" }}
+                  ></i>{" "}
+                  . Am also a problem solver.
+                </h3>
               </div>
             </div>
             <div
