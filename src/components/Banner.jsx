@@ -16,12 +16,12 @@ export default function Banner() {
         <Container fluid>
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 " style={{}}>
-              <div className="p-5 justify-content-end">
+              <div className="p-5 justify-content-end" data-aos="fade-right">
                 <h1 className=" display-3">Victor Kipkoech</h1>
                 <h4 className="pt-3 pb-3">Fullstack software developer</h4>
                 <h3 className="pt-3">
                   {" "}
-                  I am a full stack passionate software developer who is
+                  Hi , I am a full stack passionate software developer who is
                   interested in javascript,React js,nodejs and building.By
                   building I mean behind a laptop not with a{" "}
                   <i
@@ -39,6 +39,7 @@ export default function Banner() {
                 height: "500px",
                 backgroundSize: "cover"
               }}
+              data-aos="fade-left"
             ></div>
           </div>
         </Container>

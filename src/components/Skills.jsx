@@ -46,7 +46,11 @@ export default function Skills() {
   return (
     <div id="skills">
       <Container fluid>
-        <h2 className="text-center pt-5 pb-5">Skills</h2>
+        <h2 className="text-center pt-5 pb-5 ">
+          <span className=" border-bottom border-danger border-5">
+            My Skills
+          </span>
+        </h2>
         <Row>
           {skill.map(skill => (
             <div className="col text-center">
