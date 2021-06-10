@@ -35,7 +35,7 @@ export default function Contacts() {
     }
   ];
   return (
-    <div style={{ backgroundColor: "#f8f8f8" }} id="contact">
+    <div style={{ backgroundColor: "#f8f8f8" }} id="contact" data-aos="zoom-in">
       <Container className="p-3 pb-4">
         <h3 className="text-center pt-5 pb-3 ">
           <span className=" border-bottom border-danger border-5">Contact</span>

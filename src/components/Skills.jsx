@@ -47,13 +47,13 @@ export default function Skills() {
     <div id="skills">
       <Container fluid>
         <h2 className="text-center pt-5 pb-5 ">
-          <span className=" border-bottom border-danger border-5">
+          <span className=" border-bottom border-danger border-5" data-aos="fade-down">
             My Skills
           </span>
         </h2>
         <Row>
           {skill.map(skill => (
-            <div className="col text-center">
+            <div className="col text-center" data-aos="fade-up">
               <div style={{ width: "18rem", height: "30rem" }}>
                 <img src={skill.name} class=" " alt="..." />
                 <div class="card-body">
